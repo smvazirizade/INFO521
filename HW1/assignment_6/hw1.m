@@ -1,0 +1,13 @@
+clc;clear;
+Data=load('data/humu.txt');
+fprintf('Type of Data is %s \n', class(Data));
+fprintf('Total size of Data is %i \n', numel(Data));
+Size=size(Data);
+fprintf('The number of columns and rows are %i and %i, respetively \n', Size(1), Size(2));
+Min=min(min(Data));
+Max=max(max(Data));
+fprintf('The min and max vaules are %f and %f, respetively \n' , Min, Max);
+DataScaled=Data./Max;
+MinScaled=min(min(DataScaled));
+MaxScaled=max(max(DataScaled));
+fprintf('The min and max vaules of DataScaled are %f and %f, respetively' , MinScaled, MaxScaled);

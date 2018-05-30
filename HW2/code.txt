@@ -1,0 +1,3 @@
+These script has been developed by Sayyed Mohsen Vazirizade using python 3.
+The only thing you should do is just open the folder problem 1-4 and open HW1 to 4 and run it.
+The script HW1 is more reach in comment and if you read this one you will not enounter any problem in others because they are almost the same.

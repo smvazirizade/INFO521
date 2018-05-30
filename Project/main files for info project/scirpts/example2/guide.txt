@@ -1,0 +1,5 @@
+For Genrating data for ANN:
+The main file is the matlab.m
+It creates the input file and then call the file model.tcl to run the FEM engine. After that the data are ready for our ANN.
+I have already copied the input value for our ANN in 0.25g and 1.00g.
+Then it is NN_Openseesdata.m to be run.
